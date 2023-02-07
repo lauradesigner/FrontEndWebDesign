@@ -1,36 +1,57 @@
+/* this color is an idea, it may change in future*/
+body {   
+  background-color: #B2B0AA; 
+  padding-left: 100px;
+  padding-right: 100px;
+ }
+
 /* mouse over link */
 a:hover {
-  color: yellow;
+  color: rgb(255, 0, 0);
 }
+
 h1  {
-  font-family: fantasy;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
   color: black;
-  background-color: #2E8BC0;
+  background-color: #3E463B;
   padding: 25px 25px 25px 25px;
   border-width: 2px;
   border-style: solid;
 }
 
-body {   /* trying to use a blue color palette for the entire site*/
- background-color: #B1D4E0;
-}
-
 #History {
-  background-color: #2E8BC0;
+  background-color: #3c3f3b;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
   padding: 10px 10px 10px 0px;
   margin: 20px;
   border-width: 3px;
   border-style: solid;
+}
+
+.mainparagraph {font-size: 20px ;
+ background-color: rgb(194, 205, 201);
+}
+
+.center, .description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Paintings {
-  background-color: #2E8BC0;
+  background-color: #3c3f3b;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
   padding: 10px 10px 10px 0px;
   margin: 20px;
   border-width: 3px;
   border-style: solid;
 }
-
-.description { /* this is for the brief description of two paintings*/
+/*for the two paintings only*/
+.description { 
   max-width: 700px;
 }
+
