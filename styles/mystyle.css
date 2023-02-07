@@ -1,4 +1,4 @@
-/* this color is an idea, it may change in future*/
+/* this color may change in the future*/
 body {   
   background-color: #B2B0AA; 
   padding-left: 100px;
@@ -50,7 +50,7 @@ h1  {
   border-width: 3px;
   border-style: solid;
 }
-/*for the two paintings only*/
+/*for the paragraphs to be smaller*/
 .description { 
   max-width: 700px;
 }
