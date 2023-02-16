@@ -1,8 +1,8 @@
 /* this color may change in the future*/
 body {   
   background-color: #B2B0AA; 
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
  }
 ul{
   padding-left: 0px;
@@ -70,7 +70,15 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%; /* this lets the image to scale down if it has to but never scale up*/
 }
+
+/*for the images to be all the same width and height*/
+.center{
+  width: 700px;
+  height: 350px;
+}
+
 
 /*for the description of paragraphs to be as wide as the images*/
 .description { 
