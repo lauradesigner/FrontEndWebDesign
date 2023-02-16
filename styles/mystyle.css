@@ -1,8 +1,8 @@
 /* this color may change in the future*/
 body {   
   background-color: #B2B0AA; 
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
  }
 ul{
   padding-left: 0px;
@@ -37,32 +37,29 @@ ul a {
   color: black;
 }
 
-/*creating space at top between navigation bar and big image*/
-#bigimage {
-  padding-top: 20px;
-}
 h1 {
   text-align: center;
   font-family:'Playfair Display', serif;
   font-size: 45px;
   color: black;
   background-color: #e9f1e6;
-  padding: 25px 25px 25px 25px;
+  padding: 25px; 
   border-width: 2px;
   border-style: solid;
+  margin: 20px;
 }
 /* This is for the Reinaissance Art title*/
 .mainparagraph {
   font-size: 20px ;
 }
 
-/*This is to the history and paintings subtitles only*/ 
+/*This is to the subtitles only (history and paintings)*/ 
 .subtitle {
   background-color: #e9f1e6;
   color: black;
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   margin: 20px;
   border-width: 3px;
   border-style: solid;
